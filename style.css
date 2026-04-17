@@ -509,29 +509,6 @@ section {
     font-size: 0.94rem;
 }
 
-/* Architecture */
-.architecture-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-}
-
-.architecture-card {
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
-    padding: 1.5rem;
-}
-
-.architecture-card h3 {
-    margin-bottom: 0.7rem;
-}
-
-.architecture-card p {
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-}
-
 /* Education */
 .education-grid {
     display: grid;
